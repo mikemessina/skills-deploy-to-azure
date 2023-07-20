@@ -12,7 +12,9 @@ env:
   DOCKER_IMAGE_NAME: mikemessina-azure-ttt
   AZURE_WEBAPP_NAME: mikemessina-ttt-app
   ###############################################
-#
+
+##
+
 jobs:
   build:
     if: contains(github.event.pull_request.labels.*.name, 'stage')
